@@ -1,0 +1,30 @@
+@import "/src/styles/style.scss";
+
+.button {
+    height: 36px;
+    padding: 6px 12px;
+    background-color: $B60;
+    border: 0;
+    border-radius: 6px;
+    color: $Mono-White;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $B50;
+    }
+
+    &:focus {
+        box-shadow: $shadow-B;
+        box-shadow: inset 0px 0px 0px 2px $B40;
+    }
+
+    &:active {
+        background-color: $B70;
+    }
+}
