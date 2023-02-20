@@ -1,8 +1,14 @@
+import Intro from "../components/Intro/Intro";
+
 export default function Home() {
     return (
         <>
-            <h1>Accessibility Demo</h1>
-            <span>Author: Thuan Nguyen - V1.0</span>
+            <div className="content">
+                <Intro
+                    title="Accessibility Demo"
+                    description="Author: Thuan Nguyen"
+                />
+            </div>
         </>
     );
 }

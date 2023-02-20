@@ -1,9 +1,21 @@
 import Button from "../components/Button/Button";
 import Caption from "../components/Caption/Caption";
+import Intro from "../components/Intro/Intro";
 
 export default function TabOrder() {
     return (
         <>
+            <div className="content">
+                <Intro
+                    title="Tab order"
+                    description="The tab order is the order in which a user moves focus from
+                    one control to another by pressing the Tab key. Each form
+                    has its own tab order. By default, the tab order is the same
+                    as the order in which you created the controls. Tab-order
+                    numbering begins with zero and ascends in value, and is set
+                    with the TabIndex property."
+                ></Intro>
+            </div>
             <div className="content">
                 <div className="box vertical">
                     <Button label="Button 1" />
