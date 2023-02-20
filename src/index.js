@@ -8,6 +8,7 @@ import Root from "./routes/root";
 import Home from "./routes/Home";
 import Alt from "./routes/Alt";
 import Role from "./routes/Role";
+import TabOrder from "./routes/TabOrder";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "Role",
                 element: <Role />,
+            },
+            {
+                path: "TabOrder",
+                element: <TabOrder />,
             },
         ],
     },

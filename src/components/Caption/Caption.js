@@ -1,11 +1,11 @@
 import "./Caption.scss";
 
-export default function Caption({ label }) {
+export default function Caption({ label, children }) {
     return (
         <>
-            <caption tabIndex="-1" className="caption">
-                {label}
-            </caption>
+            <div tabIndex="-1" className="caption">
+                {label} {children}
+            </div>
         </>
     );
 }

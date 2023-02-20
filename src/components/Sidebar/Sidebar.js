@@ -7,6 +7,7 @@ export default function Sidebar() {
             <Link index href="/Home" label="Home" />
             <Link href="/Alt" label="Alt" />
             <Link href="/Role" label="Role" />
+            <Link href="/TabOrder" label="Tab Order" />
         </aside>
     );
 }
