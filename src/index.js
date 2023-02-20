@@ -14,11 +14,11 @@ const router = createBrowserRouter([
         element: <Root />,
         children: [
             {
-                path: "Alt",
+                path: "alt",
                 element: <Alt />,
             },
             {
-                path: "Role",
+                path: "role",
                 element: <Role />,
             },
         ],
