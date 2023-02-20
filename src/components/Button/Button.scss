@@ -1,6 +1,8 @@
 @import "/src/styles/style.scss";
 
 .button {
+    display: inline-flex;
+    align-items: center;
     height: 36px;
     padding: 6px 12px;
     background-color: $B60;

@@ -1,0 +1,11 @@
+@import "/src/styles/style.scss";
+
+.caption {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 8px;
+    background-color: $N10;
+}

@@ -6,7 +6,9 @@ export default function Layout({ children }) {
         <>
             <div className="container">
                 <Sidebar />
-                <main className="main">{children}</main>
+                <main tabIndex="1" className="main">
+                    {children}
+                </main>
             </div>
         </>
     );

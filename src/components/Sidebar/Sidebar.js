@@ -3,7 +3,8 @@ import Link from "./Link";
 
 export default function Sidebar() {
     return (
-        <aside className="sidebar">
+        <aside tabIndex="-1" className="sidebar">
+            <Link index href="/Home" label="Home" />
             <Link href="/Alt" label="Alt" />
             <Link href="/Role" label="Role" />
         </aside>

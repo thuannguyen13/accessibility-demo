@@ -4,7 +4,8 @@ import "./styles/style.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { StrictMode } from "react";
 
-import Root from "./routes/root";
+import Root from "./routes/Root";
+import Home from "./routes/Home";
 import Alt from "./routes/Alt";
 import Role from "./routes/Role";
 
@@ -14,11 +15,15 @@ const router = createBrowserRouter([
         element: <Root />,
         children: [
             {
-                path: "alt",
+                path: "Home",
+                element: <Home />,
+            },
+            {
+                path: "Alt",
                 element: <Alt />,
             },
             {
-                path: "role",
+                path: "Role",
                 element: <Role />,
             },
         ],
