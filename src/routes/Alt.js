@@ -12,18 +12,18 @@ export default function Alt() {
                 />
             </div>
             <div tabIndex="2" className="content">
-                <div class="box">
+                <div className="box">
                     <img
                         tabIndex="1"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/1200px-STS120LaunchHiRes-edit1.jpg"
+                        src="https://i.ytimg.com/vi/WVKOxdgZxT0/maxresdefault.jpg"
                         alt="space shuttle"
                     />
                     <Caption label="Alt='space shuttle'" />
                 </div>
-                <div class="box">
+                <div className="box">
                     <img
                         tabIndex="1"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/1200px-STS120LaunchHiRes-edit1.jpg"
+                        src="https://i.ytimg.com/vi/WVKOxdgZxT0/maxresdefault.jpg"
                         alt=""
                     />
                     <Caption label="Alt=''" />

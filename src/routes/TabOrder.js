@@ -1,8 +1,10 @@
 import Button from "../components/Button/Button";
 import Caption from "../components/Caption/Caption";
 import Intro from "../components/Intro/Intro";
+import Code from "../components/Code/Code";
 
 export default function TabOrder() {
+    const example1 = `<button> Button 1 </button>`;
     return (
         <>
             <div className="content">

@@ -10,30 +10,35 @@ import Alt from "./routes/Alt";
 import Role from "./routes/Role";
 import TabOrder from "./routes/TabOrder";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <Root />,
+            children: [
+                {
+                    path: "Home",
+                    element: <Home />,
+                },
+                {
+                    path: "Alt",
+                    element: <Alt />,
+                },
+                {
+                    path: "Role",
+                    element: <Role />,
+                },
+                {
+                    path: "TabOrder",
+                    element: <TabOrder />,
+                },
+            ],
+        },
+    ],
     {
-        path: "/",
-        element: <Root />,
-        children: [
-            {
-                path: "Home",
-                element: <Home />,
-            },
-            {
-                path: "Alt",
-                element: <Alt />,
-            },
-            {
-                path: "Role",
-                element: <Role />,
-            },
-            {
-                path: "TabOrder",
-                element: <TabOrder />,
-            },
-        ],
-    },
-]);
+        basename: "/",
+    }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

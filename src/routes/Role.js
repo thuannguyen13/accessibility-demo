@@ -14,18 +14,18 @@ export default function Role() {
                 />
             </div>
             <div className="content">
-                <div class="box">
+                <div className="box">
                     <Button />
                     <Caption label="Native <button> element" />
                 </div>
-                <div class="box">
+                <div className="box">
                     <span tabIndex="1" className="button">
                         Button
                     </span>
                     <Caption label="A <span> element" />
                 </div>
 
-                <div class="box">
+                <div className="box">
                     <span tabIndex="1" role="button" className="button">
                         Button
                     </span>
