@@ -4,7 +4,7 @@ import "./styles/style.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { StrictMode } from "react";
 
-import Root from "./routes/Root";
+import Root from "./routes/root";
 import Home from "./routes/Home";
 import Alt from "./routes/Alt";
 import Role from "./routes/Role";
