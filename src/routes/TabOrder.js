@@ -24,7 +24,7 @@ export default function TabOrder() {
                     <Button label="Button 2" />
                     <Button label="Button 3" />
                     <Caption>
-                        <strong>Normal button order</strong>
+                        <strong>Normal order</strong>
                         <ul>
                             <li>&lt;button&gt; Button 1 &lt;/button&gt;</li>
                             <li>&lt;button&gt; Button 2 &lt;/button&gt;</li>
@@ -38,7 +38,7 @@ export default function TabOrder() {
                     <Button label="Button 1" />
 
                     <Caption>
-                        <strong>Flipped button order</strong>
+                        <strong>Flipped order</strong>
                         <ul>
                             <li>&lt;button&gt; Button 3 &lt;/button&gt;</li>
                             <li>&lt;button&gt; Button 2 &lt;/button&gt;</li>
@@ -52,20 +52,18 @@ export default function TabOrder() {
                     <Button tabIndex="1" label="Button 1" />
 
                     <Caption>
-                        <strong>
-                            Flipped button order with modified tab order
-                        </strong>
+                        <strong>Flipped order with modified tab order</strong>
                         <ul>
                             <li>
                                 &lt;button tabindex="3"&gt; Button 3
                                 &lt;/button&gt;
                             </li>
                             <li>
-                                &lt;button tabindex="2"&gt; Button 3
+                                &lt;button tabindex="2"&gt; Button 2
                                 &lt;/button&gt;
                             </li>
                             <li>
-                                &lt;button tabindex="1"&gt; Button 3
+                                &lt;button tabindex="1"&gt; Button 1
                                 &lt;/button&gt;
                             </li>
                         </ul>
