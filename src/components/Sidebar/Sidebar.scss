@@ -8,3 +8,16 @@
     flex-direction: column;
     flex-shrink: 0;
 }
+
+.link {
+    height: 36px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: $Mono-Black;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: $B10;
+    }
+}
