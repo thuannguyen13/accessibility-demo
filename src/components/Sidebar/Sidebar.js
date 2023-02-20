@@ -1,10 +1,13 @@
 import "./Sidebar.scss";
+import Link from "./Link";
 
-export default function Sidebar({}) {
+export default function Sidebar() {
     return (
         <aside className="sidebar">
-            <a href="src/pages/Alt.js">Alt</a>
-            <a href="src/pages/Role.js">Role</a>
+            {/* <Link href="/Home" pageTitle="Home" /> */}
+            <a href={`/Home`}>Home</a>
+            <a href={`/Alt`}>Alt</a>
+            <a href={`/Role`}>Role</a>
         </aside>
     );
 }

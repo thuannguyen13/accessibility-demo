@@ -1,1 +1,10 @@
 @import "/src/styles/style.scss";
+
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: $B5;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
