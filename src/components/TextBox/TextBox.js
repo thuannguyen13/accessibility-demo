@@ -2,17 +2,9 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import nextId from "react-id-generator";
 import "./TextBox.scss";
+import { useFocus } from "../../hooks/useFocus";
 
 export default function TextBox({ label, value }) {
-    const useFocus = () => {
-        const htmlElRef = useRef(null);
-        const setFocus = () => {
-            htmlElRef.current && htmlElRef.current.focus();
-        };
-
-        return [htmlElRef, setFocus];
-    };
-
     const htmlId = nextId();
     const [focus, setFocus] = useState(false);
     const [inputValue, setInputValue] = useState(false);

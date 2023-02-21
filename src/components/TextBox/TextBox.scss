@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     transition: all 250ms;
-    cursor: pointer;
+    cursor: text;
 
     .text-box-label {
         display: flex;
@@ -24,7 +24,7 @@
         font-size: 14px;
         border: 0;
         color: $N50;
-        cursor: pointer;
+        cursor: text;
         transition: all 250ms;
     }
 
