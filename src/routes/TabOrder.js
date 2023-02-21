@@ -1,5 +1,4 @@
 import Button from "../components/Button/Button";
-import Caption from "../components/Caption/Caption";
 import Code from "../components/Code/Code";
 import Intro from "../components/Intro/Intro";
 

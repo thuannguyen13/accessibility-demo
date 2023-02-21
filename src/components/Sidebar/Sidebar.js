@@ -8,6 +8,7 @@ export default function Sidebar() {
             <Link href="/Alt" label="Alt" />
             <Link href="/Role" label="Role" />
             <Link href="/TabOrder" label="Tab Order" />
+            <Link href="/KeyboardInput" label="Keyboard Input" />
         </aside>
     );
 }

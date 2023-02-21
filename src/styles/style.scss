@@ -17,6 +17,14 @@ strong {
     font-weight: 600;
 }
 
+kbd {
+    background-color: $N5;
+    padding: 4px;
+    margin: 0 4px;
+    border-radius: 4px;
+    border: 1px solid $N10;
+}
+
 .content {
     display: flex;
     max-width: 1000px;
@@ -44,5 +52,21 @@ ul {
     margin-top: 16px;
     li + li {
         margin-top: 4px;
+    }
+}
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid $N20;
+    border-radius: 12px;
+
+    .card-footer {
+        display: flex;
+        justify-content: flex-end;
     }
 }

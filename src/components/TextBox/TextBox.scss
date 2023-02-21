@@ -1,0 +1,59 @@
+@import "/src/styles/style.scss";
+
+.text-box {
+    max-width: 600px;
+    width: 100%;
+    height: 44px;
+    padding: 4px 12px;
+    border: 1px solid $N30;
+    overflow: hidden;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms;
+    cursor: pointer;
+
+    .text-box-label {
+        display: flex;
+        align-items: center;
+        line-height: 14px;
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        border: 0;
+        color: $N50;
+        cursor: pointer;
+        transition: all 250ms;
+    }
+
+    .text-box-input {
+        width: 100%;
+        border: 0;
+        height: 0px;
+        padding: 0;
+        color: $N100;
+        transition: all 250ms;
+    }
+
+    &.has-value {
+        justify-content: flex-start;
+
+        & > .text-box-label {
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        & > .text-box-input {
+            height: 20px;
+        }
+    }
+
+    &.has-value.focus {
+        justify-content: flex-start;
+        border: 2px solid $B60;
+        box-shadow: $shadow-B;
+    }
+}

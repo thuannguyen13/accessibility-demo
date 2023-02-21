@@ -1,4 +1,5 @@
 import Intro from "../components/Intro/Intro";
+import TextBox from "../components/TextBox/TextBox";
 
 export default function Home() {
     return (

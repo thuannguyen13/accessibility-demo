@@ -9,6 +9,7 @@ import Home from "./routes/Home";
 import Alt from "./routes/Alt";
 import Role from "./routes/Role";
 import TabOrder from "./routes/TabOrder";
+import KeyboardInput from "./routes/KeyboardInput";
 
 const router = createBrowserRouter(
     [
@@ -31,6 +32,10 @@ const router = createBrowserRouter(
                 {
                     path: "TabOrder",
                     element: <TabOrder />,
+                },
+                {
+                    path: "KeyboardInput",
+                    element: <KeyboardInput />,
                 },
             ],
         },
