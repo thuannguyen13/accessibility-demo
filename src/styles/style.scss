@@ -70,3 +70,10 @@ ul {
         justify-content: flex-end;
     }
 }
+
+.vertical-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+    align-items: flex-start;
+}

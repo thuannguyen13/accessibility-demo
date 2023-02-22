@@ -1,11 +1,11 @@
 import Intro from "../components/Intro/Intro";
 
-export default function Home() {
+export default function StructureOrder() {
     return (
         <>
             <div className="content">
                 <Intro
-                    title="Accessibility Demo"
+                    title="Structure Order"
                     description="Author: Thuan Nguyen"
                 />
             </div>

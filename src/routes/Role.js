@@ -15,7 +15,7 @@ export default function Role() {
             </div>
             <div className="content">
                 <div className="box">
-                    <Button />
+                    <Button tabIndex="1" />
                     <Caption label="Native <button> element" />
                 </div>
                 <div className="box">

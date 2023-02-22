@@ -10,6 +10,7 @@ import Alt from "./routes/Alt";
 import Role from "./routes/Role";
 import TabOrder from "./routes/TabOrder";
 import KeyboardInput from "./routes/KeyboardInput";
+import StructureOrder from "./routes/StructureOrder";
 
 const router = createBrowserRouter(
     [
@@ -36,6 +37,10 @@ const router = createBrowserRouter(
                 {
                     path: "KeyboardInput",
                     element: <KeyboardInput />,
+                },
+                {
+                    path: "StructureOrder",
+                    element: <StructureOrder />,
                 },
             ],
         },

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useRef } from "react";
 import nextId from "react-id-generator";
 import "./TextBox.scss";
 import { useFocus } from "../../hooks/useFocus";
@@ -12,15 +11,15 @@ export default function TextBox({ label, value }) {
 
     function handleClick() {
         setFocus(!focus);
-        setInputValue(focus == false);
+        setInputValue(focus === false);
     }
 
     function handleOnBlur(event) {
-        setFocus(focus == false);
+        setFocus(focus === false);
         if (event.target.value.length !== 0) {
-            setInputValue(inputValue == true);
+            setInputValue(inputValue === true);
         } else {
-            setInputValue(inputValue == false);
+            setInputValue(inputValue === false);
         }
     }
 
