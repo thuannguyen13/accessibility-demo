@@ -9,8 +9,7 @@ html {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 strong {
@@ -69,10 +68,15 @@ ul {
     padding: 16px;
     border: 1px solid $N20;
     border-radius: 12px;
+    background-color: $Mono-White;
 
     .card-footer {
         display: flex;
         justify-content: flex-end;
+    }
+
+    & + & {
+        margin-top: 16px;
     }
 }
 

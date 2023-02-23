@@ -3,7 +3,7 @@ import Prism from "prismjs";
 import "./Code.scss";
 import "./LanguageTheme.scss";
 
-export default function Code({ code, language }) {
+export default function Code({ code, language = "html" }) {
     useEffect(() => {
         Prism.highlightAll();
     }, []);

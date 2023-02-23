@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section.scss";
 
-export default function Section({ children }) {
-    return <div className="section">{children}</div>;
+export default function Section({ vertical = false, children }) {
+    return <section className={`section ${vertical && "vertical"}`}>{children}</section>;
 }
