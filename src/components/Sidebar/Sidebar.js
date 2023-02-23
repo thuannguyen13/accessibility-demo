@@ -1,15 +1,25 @@
 import "./Sidebar.scss";
-import Link from "./Link";
+
+import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
     return (
         <aside tabIndex="-1" className="sidebar">
-            <Link href="/Home" label="Home" />
-            <Link href="/Alt" label="Alt" />
-            <Link href="/Role" label="Role" />
-            <Link href="/TabOrder" label="Tab Order" />
-            <Link href="/KeyboardInput" label="Keyboard Input" />
-            {/* <Link href="/StructureOrder" label="Structure Order" /> */}
+            <NavLink className="link" to="/Home">
+                Home
+            </NavLink>
+            <NavLink className="link" to="/Alt">
+                Alt
+            </NavLink>
+            <NavLink className="link" to="/Role">
+                Role
+            </NavLink>
+            <NavLink className="link" to="/TabOrder">
+                Tab Order
+            </NavLink>
+            <NavLink className="link" to="/KeyboardInput">
+                Keyboard Input
+            </NavLink>
         </aside>
     );
 }

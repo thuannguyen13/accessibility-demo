@@ -1,4 +1,3 @@
-import Caption from "../components/Caption/Caption";
 import Section from "../components/Section/Section";
 import Box from "../components/Box/Box";
 import Intro from "../components/Intro/Intro";
@@ -15,7 +14,7 @@ export default function Alt() {
             <Section>
                 <Intro
                     title="Text alternatives for non-text content"
-                    description="Text alternatives help users understand the purpose of an image or function. For example, a text alternative for a search button should be 'Search' instead of 'Magnifying lens'"
+                    description="Alternative text is a textual substitute for non-text content in web pages. But its principles also apply to multimedia and other non-text content."
                 />
             </Section>
             <Section>

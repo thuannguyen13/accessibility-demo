@@ -2,12 +2,17 @@
 
 .sidebar {
     width: 200px;
-    height: 100vh;
-    background-color: $N0;
+    height: 100%;
+    background-color: $Mono-White;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    border-right: 1px solid $N20;
+    border: 1px solid $N20;
+    margin: 8px;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 8px;
+    font-size: 14px;
 }
 
 .link {
@@ -17,8 +22,14 @@
     color: $Mono-Black;
     display: flex;
     align-items: center;
+    border-radius: 8px;
 
     &:hover {
-        background-color: $B10;
+        background-color: $N10;
+    }
+
+    &.active {
+        background-color: $N10;
+        font-weight: 500;
     }
 }

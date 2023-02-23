@@ -11,7 +11,7 @@ export default function KeyboardInput() {
             <Section>
                 <Intro
                     title="Different input modalities beyond mouse"
-                    description="Input modalities beyond mouse (e.g. keyboard, touch, voice recognition, gestures) make content easier to use. Design considerations must be taken to maximize their benefit, such as considering different users' abilities to use them.
+                    description="Input modalities beyond mouse (e.g. keyboard, touch, voice recognition, gestures) make content easier to use. Design considerations must be taken to maximize their benefit, such as considering different users' abilities to use them.x
                     "
                 />
             </Section>

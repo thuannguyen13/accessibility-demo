@@ -1,5 +1,4 @@
 import Button from "../components/Button/Button";
-import Caption from "../components/Caption/Caption";
 import Section from "../components/Section/Section";
 import "../styles/style.scss";
 
