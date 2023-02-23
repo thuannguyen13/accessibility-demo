@@ -30,7 +30,7 @@ export default function TabOrder() {
 
             <Section>
                 <Box title="Normal order">
-                    <div className="vertical-reverse">
+                    <div className="vertical">
                         <Button tabIndex="1" label="Button 1" />
                         <Button tabIndex="1" label="Button 2" />
                         <Button tabIndex="1" label="Button 3" />

@@ -81,6 +81,13 @@ ul {
     }
 }
 
+.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
 .vertical-reverse {
     display: flex;
     flex-direction: column-reverse;
