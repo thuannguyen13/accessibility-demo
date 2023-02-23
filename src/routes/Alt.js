@@ -15,19 +15,11 @@ export default function Alt() {
             </Section>
             <Section>
                 <Box>
-                    <img
-                        tabIndex="1"
-                        src="https://i.ytimg.com/vi/WVKOxdgZxT0/maxresdefault.jpg"
-                        alt="space shuttle"
-                    />
+                    <img tabIndex="1" src="https://i.ytimg.com/vi/WVKOxdgZxT0/maxresdefault.jpg" alt="space shuttle" />
                     <Caption label="Alt='space shuttle'" />
                 </Box>
                 <Box>
-                    <img
-                        tabIndex="1"
-                        src="https://i.ytimg.com/vi/WVKOxdgZxT0/maxresdefault.jpg"
-                        alt=""
-                    />
+                    <img tabIndex="1" src="https://i.ytimg.com/vi/WVKOxdgZxT0/maxresdefault.jpg" alt="" />
                     <Caption label="Alt=' '" />
                 </Box>
             </Section>

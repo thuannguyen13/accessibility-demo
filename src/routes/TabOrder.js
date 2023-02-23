@@ -27,13 +27,7 @@ export default function TabOrder() {
             <div className="content">
                 <Intro
                     title="Tab order"
-                    description="The tab order is the order in which a user moves focus from
-                    one control to another by pressing the Tab key. Each form
-                    has its own tab order. By default, the tab order is the same
-                    as the order in which you created the controls. Tab-order
-                    numbering begins with zero and ascends in value, and is set
-                    with the TabIndex property."
-                ></Intro>
+                    description="The tab order is the order in which a user moves focus from one control to another by pressing the Tab key. Each form has its own tab order. By default, the tab order is the same as the order in which you created the controls. Tab-order numbering begins with zero and ascends in value, and is set with the TabIndex property."></Intro>
             </div>
 
             <div className="content">
@@ -49,9 +43,7 @@ export default function TabOrder() {
             <div className="content">
                 <div className="box vertical">
                     <div>
-                        <h2>
-                            Visually reversed but HTML structure stay the same
-                        </h2>
+                        <h2>Visually reversed but HTML structure stay the same</h2>
                         <p></p>
                     </div>
 
@@ -66,10 +58,7 @@ export default function TabOrder() {
 
             <div className="content">
                 <div className="box vertical">
-                    <h2>
-                        Visually reversed but with modified tab order to match
-                        HTML Focus order
-                    </h2>
+                    <h2>Visually reversed but with modified tab order to match HTML Focus order</h2>
                     <div className="vertical-reverse">
                         <Button tabIndex="5" label="Button 1" />
                         <Button tabIndex="4" label="Button 2" />

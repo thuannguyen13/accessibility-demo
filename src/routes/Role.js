@@ -9,10 +9,7 @@ export default function Role() {
     return (
         <>
             <Section>
-                <Intro
-                    title="HTML Role Attribute"
-                    description="The role attribute describes the role of an element in programs that can make use of it, such as screen readers or magnifiers."
-                />
+                <Intro title="HTML Role Attribute" description="The role attribute describes the role of an element in programs that can make use of it, such as screen readers or magnifiers." />
             </Section>
             <Section>
                 <div className="box">

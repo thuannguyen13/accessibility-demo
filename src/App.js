@@ -8,47 +8,42 @@ import TabOrder from "./routes/TabOrder";
 import KeyboardInput from "./routes/KeyboardInput";
 import StructureOrder from "./routes/StructureOrder";
 
-const router = createBrowserRouter(
-    [
-        {
-            path: "/",
-            element: <Root />,
-            children: [
-                {
-                    index: true,
-                    element: <Home />,
-                },
-                {
-                    path: "Home",
-                    element: <Home />,
-                },
-                {
-                    path: "Alt",
-                    element: <Alt />,
-                },
-                {
-                    path: "Role",
-                    element: <Role />,
-                },
-                {
-                    path: "TabOrder",
-                    element: <TabOrder />,
-                },
-                {
-                    path: "KeyboardInput",
-                    element: <KeyboardInput />,
-                },
-                {
-                    path: "StructureOrder",
-                    element: <StructureOrder />,
-                },
-            ],
-        },
-    ],
+const router = createBrowserRouter([
     {
-        basename: "/",
-    }
-);
+        path: "/",
+        element: <Root />,
+        children: [
+            {
+                index: true,
+                element: <Home />,
+            },
+            {
+                path: "Home",
+                element: <Home />,
+            },
+            {
+                path: "Alt",
+                element: <Alt />,
+            },
+            {
+                path: "Role",
+                element: <Role />,
+            },
+            {
+                path: "TabOrder",
+                element: <TabOrder />,
+            },
+            {
+                path: "KeyboardInput",
+                element: <KeyboardInput />,
+            },
+            {
+                path: "StructureOrder",
+                element: <StructureOrder />,
+            },
+        ],
+    },
+]);
 
 function App() {
     return <RouterProvider router={router} />;
