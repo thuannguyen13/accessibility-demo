@@ -3,10 +3,11 @@
 .sidebar {
     width: 200px;
     height: 100vh;
-    background-color: $B5;
+    background-color: $N0;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    border-right: 1px solid $N20;
 }
 
 .link {
