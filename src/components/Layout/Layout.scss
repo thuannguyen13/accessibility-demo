@@ -1,6 +1,6 @@
 @import "/src/styles/style.scss";
 
-.container {
+.layout {
     display: flex;
     height: 100%;
 }
@@ -10,4 +10,9 @@
     width: 100%;
     overflow-y: scroll;
     height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
 }

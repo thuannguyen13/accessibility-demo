@@ -1,5 +1,6 @@
 import Button from "../components/Button/Button";
 import Caption from "../components/Caption/Caption";
+import Section from "../components/Section/Section";
 import "../styles/style.scss";
 
 import Intro from "../components/Intro/Intro";
@@ -7,13 +8,13 @@ import Intro from "../components/Intro/Intro";
 export default function Role() {
     return (
         <>
-            <div className="content">
+            <Section>
                 <Intro
                     title="HTML Role Attribute"
                     description="The role attribute describes the role of an element in programs that can make use of it, such as screen readers or magnifiers."
                 />
-            </div>
-            <div className="content">
+            </Section>
+            <Section>
                 <div className="box">
                     <Button tabIndex="1" />
                     <Caption label="Native <button> element" />
@@ -31,7 +32,7 @@ export default function Role() {
                     </span>
                     <Caption label="A <span> element with button role" />
                 </div>
-            </div>
+            </Section>
         </>
     );
 }
