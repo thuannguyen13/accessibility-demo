@@ -40,11 +40,14 @@ export default function ReactionTime() {
         <>
             <ToastList>{toast ? <Toast handleClick={remoteToast} /> : ""}</ToastList>
             <Section>
-                <Intro title="Structure Order" description="Author: Thuan Nguyen" />
+                <Intro
+                    title="User have enough time to read and use the content"
+                    description="Some people need more time than others to read and use the content. For instance, some people require more time to type text, understand instructions, operate controls, or to otherwise complete tasks on a website."
+                />
             </Section>
 
             <Section>
-                <Box>
+                <Box title="Provide enough time for screen reader to read content from popup elements">
                     <Button label="Add Toast" onClick={addToast} />
                     <p>Toast timer: {counter}s</p>
                 </Box>
