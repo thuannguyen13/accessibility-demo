@@ -1,8 +1,8 @@
-import Button from "../components/Button/Button";
-import Code from "../components/Code/Code";
-import Intro from "../components/Intro/Intro";
-import Box from "../components/Box/Box";
-import Section from "../components/Section/Section";
+import Button from "../components/Button";
+import Code from "../components/Code";
+import Intro from "../components/Intro";
+import Box from "../components/Box";
+import Section from "../components/Section";
 
 export default function TabOrder() {
     const code = {

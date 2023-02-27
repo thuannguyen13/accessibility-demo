@@ -1,5 +1,5 @@
-import Intro from "../components/Intro/Intro";
-import Section from "../components/Section/Section";
+import Intro from "../components/Intro";
+import Section from "../components/Section";
 
 export default function Home() {
     return (

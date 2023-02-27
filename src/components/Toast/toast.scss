@@ -1,0 +1,37 @@
+@import "/src/styles/style.scss";
+
+.toast {
+    display: inline-flex;
+    background-color: $Mono-White;
+    border: 1px solid $N20;
+    border-radius: 6px;
+    box-shadow: $shadow-5;
+    align-items: flex-start;
+    padding: 8px 12px;
+}
+
+.toast-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    gap: 16px;
+}
+
+.toast-message {
+    margin-top: 0;
+}
+
+.toast-close-btn {
+    height: 20px;
+    width: 20px;
+    color: $B60;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:focus {
+        border: 2px solid $B40;
+    }
+}

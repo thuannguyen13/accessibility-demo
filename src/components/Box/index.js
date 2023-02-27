@@ -1,5 +1,5 @@
 import React from "react";
-import "./Box.scss";
+import "./box.scss";
 
 export default function Box({ title = "Title", desc = "Description", children }) {
     return (

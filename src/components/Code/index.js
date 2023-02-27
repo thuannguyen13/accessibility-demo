@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Prism from "prismjs";
-import "./Code.scss";
-import "./LanguageTheme.scss";
+import "./code.scss";
+import "./languageTheme.scss";
 
 export default function Code({ code, language = "html" }) {
     useEffect(() => {

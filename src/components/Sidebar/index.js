@@ -1,10 +1,10 @@
-import "./Sidebar.scss";
+import "./sidebar.scss";
 
 import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
     return (
-        <aside tabIndex="-1" className="sidebar">
+        <aside aria-hidden="true" tabIndex="-1" className="sidebar">
             <NavLink tabIndex="-1" className="link" to="/Home">
                 Home
             </NavLink>
@@ -19,6 +19,9 @@ export default function Sidebar() {
             </NavLink>
             <NavLink tabIndex="-1" className="link" to="/KeyboardInput">
                 Keyboard Input
+            </NavLink>
+            <NavLink tabIndex="-1" className="link" to="/ReactionTime">
+                Reaction Time
             </NavLink>
         </aside>
     );

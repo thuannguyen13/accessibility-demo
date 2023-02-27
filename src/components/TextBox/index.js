@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import nextId from "react-id-generator";
-import "./TextBox.scss";
+import "./textBox.scss";
 import { useFocus } from "../../hooks/useFocus";
 
 export default function TextBox({ label, value }) {
@@ -27,16 +27,9 @@ export default function TextBox({ label, value }) {
         <div
             onFocus={(setRefElementFocus, handleClick)}
             onBlur={handleOnBlur}
-            className={`text-box ${inputValue ? "has-value" : ""} ${
-                focus ? "focus" : ""
-            } 
-            }`}
-        >
-            <label
-                onFocus={setRefElementFocus}
-                className="text-box-label"
-                htmlFor={htmlId}
-            >
+            className={`text-box ${inputValue ? "has-value" : ""} ${focus ? "focus" : ""} 
+            }`}>
+            <label onFocus={setRefElementFocus} className="text-box-label" htmlFor={htmlId}>
                 {label ? label : "Label"}
             </label>
             <input className="text-box-input" id={htmlId} ref={refElement} />

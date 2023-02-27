@@ -1,8 +1,8 @@
-import Box from "../components/Box/Box";
-import Button from "../components/Button/Button";
-import Intro from "../components/Intro/Intro";
-import Section from "../components/Section/Section";
-import TextBox from "../components/TextBox/TextBox";
+import Box from "../components/Box";
+import Button from "../components/Button";
+import Intro from "../components/Intro";
+import Section from "../components/Section";
+import TextBox from "../components/TextBox";
 
 export default function KeyboardInput() {
     const str = `Try to use TAB to navigate between input fields`;

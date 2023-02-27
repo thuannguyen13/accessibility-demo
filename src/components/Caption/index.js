@@ -1,4 +1,4 @@
-import "./Caption.scss";
+import "./caption.scss";
 
 export default function Caption({ label, children }) {
     return (

@@ -1,7 +1,7 @@
-import Section from "../components/Section/Section";
-import Box from "../components/Box/Box";
-import Intro from "../components/Intro/Intro";
-import Code from "../components/Code/Code";
+import Section from "../components/Section";
+import Box from "../components/Box";
+import Intro from "../components/Intro";
+import Code from "../components/Code";
 import "../styles/style.scss";
 
 export default function Alt() {

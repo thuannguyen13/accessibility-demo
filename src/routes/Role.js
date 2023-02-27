@@ -1,9 +1,9 @@
-import Button from "../components/Button/Button";
-import Section from "../components/Section/Section";
+import Button from "../components/Button";
+import Section from "../components/Section";
 import "../styles/style.scss";
 
-import Intro from "../components/Intro/Intro";
-import Box from "../components/Box/Box";
+import Intro from "../components/Intro";
+import Box from "../components/Box";
 
 export default function Role() {
     return (

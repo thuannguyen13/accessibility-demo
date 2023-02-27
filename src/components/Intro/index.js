@@ -1,4 +1,4 @@
-import "./Intro.scss";
+import "./intro.scss";
 
 export default function Intro({ title, description }) {
     return (
