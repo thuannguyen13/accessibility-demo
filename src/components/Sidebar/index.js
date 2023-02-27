@@ -9,16 +9,16 @@ export default function Sidebar() {
                 Home
             </NavLink>
             <NavLink tabIndex="-1" className="link" to="/Alt">
-                Alt
+                Text Alt
             </NavLink>
             <NavLink tabIndex="-1" className="link" to="/Role">
-                Role
+                Element Role
             </NavLink>
             <NavLink tabIndex="-1" className="link" to="/TabOrder">
                 Tab Order
             </NavLink>
             <NavLink tabIndex="-1" className="link" to="/KeyboardInput">
-                Keyboard Input
+                Alternative Input
             </NavLink>
             <NavLink tabIndex="-1" className="link" to="/ReactionTime">
                 Reaction Time
