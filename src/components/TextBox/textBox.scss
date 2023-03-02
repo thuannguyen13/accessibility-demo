@@ -52,8 +52,7 @@
     }
 
     &.has-value.focus {
+        @extend %focus-ring;
         justify-content: flex-start;
-        border: 2px solid $B60;
-        box-shadow: $shadow-B;
     }
 }

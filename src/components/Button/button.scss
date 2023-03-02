@@ -22,8 +22,7 @@
     }
 
     &:focus {
-        box-shadow: $shadow-B;
-        box-shadow: inset 0px 0px 0px 4px $B40;
+        @extend %focus-ring;
     }
 
     &:active {

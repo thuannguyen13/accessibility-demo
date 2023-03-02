@@ -23,6 +23,9 @@ export default function Sidebar() {
             <NavLink tabIndex="-1" className="link" to="/ReactionTime">
                 Reaction Time
             </NavLink>
+            <NavLink tabIndex="-1" className="link" to="/MarkupReady">
+                Markup Ready
+            </NavLink>
         </aside>
     );
 }

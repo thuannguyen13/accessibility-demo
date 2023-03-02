@@ -7,6 +7,7 @@ import Role from "./routes/Role";
 import TabOrder from "./routes/TabOrder";
 import KeyboardInput from "./routes/KeyboardInput";
 import ReactionTime from "./routes/ReactionTime";
+import MarkupReady from "./routes/MarkupReady";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "ReactionTime",
                 element: <ReactionTime />,
+            },
+            {
+                path: "MarkupReady",
+                element: <MarkupReady />,
             },
         ],
     },
