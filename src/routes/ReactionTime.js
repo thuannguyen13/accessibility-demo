@@ -32,6 +32,7 @@ export default function ReactionTime() {
     }
 
     function remoteToast() {
+        setCounter(0);
         setToast(false);
         setIsCounting(false);
     }
@@ -49,7 +50,9 @@ export default function ReactionTime() {
             <Section>
                 <Box title="Provide enough time for screen reader to read content from popup elements">
                     <Button label="Add Toast" onClick={addToast} />
-                    <p>Toast timer: {counter}s</p>
+                    <p>
+                        Toast timer: <b>{counter}s </b>(disapear after 7s)
+                    </p>
                 </Box>
             </Section>
         </>
