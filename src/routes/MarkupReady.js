@@ -15,18 +15,18 @@ export default function MarkupReady() {
                     <nav className="nav-demo">
                         <ul>
                             <li>
-                                <a href="/">Home</a>
+                                <a href="/MarkupReady">Home</a>
                             </li>
                             <li>
-                                <a className="active" href="/" aria-current="page">
+                                <a className="active" href="/MarkupReady" aria-current="page">
                                     Products
                                 </a>
                             </li>
                             <li>
-                                <a href="/">Blog</a>
+                                <a href="/MarkupReady">Blog</a>
                             </li>
                             <li>
-                                <a href="/">Contact</a>
+                                <a href="/MarkupReady">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -37,18 +37,18 @@ export default function MarkupReady() {
                     <nav className="nav-demo">
                         <ul>
                             <li>
-                                <a href="/">Home</a>
+                                <a href="/MarkupReady">Home</a>
                             </li>
                             <li>
-                                <a className="active" href="/">
+                                <a className="active" href="/MarkupReady">
                                     Products
                                 </a>
                             </li>
                             <li>
-                                <a href="/">Blog</a>
+                                <a href="/MarkupReady">Blog</a>
                             </li>
                             <li>
-                                <a href="/">Contact</a>
+                                <a href="/MarkupReady">Contact</a>
                             </li>
                         </ul>
                     </nav>
